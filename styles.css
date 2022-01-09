@@ -13,8 +13,11 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     color: #E5E7EB;  
-    padding: 0px 16px;
+    padding: 16px 160px;
     text-align: left;
+    align-items: flex-start;
+
+    padding-bottom: 50px;
 
 }
 
@@ -37,11 +40,16 @@ body {
     font-size: 18px;
 }
 
+.hero-main, .subtext {
+    padding-right: 18px;
+}
+
 .title {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
     text-align: center;
+    padding: 48px;
 }
 
 .container {
@@ -50,6 +58,7 @@ body {
     gap: 52px;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 96px;
 }
 
 .images {
@@ -57,8 +66,13 @@ body {
     color: #1F2937;
 }
 
+.middle1 img {
+    padding-bottom: 8px;
+}
+
 .middle2 {
     background-color: #E5E7EB;
+    padding: 100px 550px;
 }
 
 .quote {
@@ -68,15 +82,32 @@ body {
     font-weight: lighter; 
 }
 
+.quote, .attribution {
+    text-align: left;
+    align-items: center;
+}
+
 .attribution {
     font-size: 24px;
-    text-align: end;
+    text-align: right;
+    padding-top: 16px;
+}
+
+.middle3 {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
 }
 
 .banner {
     background-color: #3882F6;
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    padding: 24px 80px;
+    border-radius: 8px;
+
+    text-align: left;
+    justify-content: space-around;
+    width: 700px;
 }
 
 .call-to-action {
@@ -97,6 +128,8 @@ button {
     border-radius: 4px;
     border: none;
     padding: 6px 16px;
+
+    margin-top: 8px;
 }
 
 .white-sign-up {
@@ -106,6 +139,7 @@ button {
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 24px;
 }
 
 ul {
